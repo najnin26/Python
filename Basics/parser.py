@@ -5,9 +5,9 @@ if __name__ == '__main__':
         description="my watch script"
         )
     
-    parser.add_argument('num1', help="Number 1",type=float)
-    parser.add_argument('num2', help="Number 2",type=float)
-    parser.add_argument('operation', help="provide operator")
+    parser.add_argument('-n','--num1', help="Number 1",type=float)
+    parser.add_argument('-i','--num2', help="Number 2",type=float)
+    parser.add_argument('-o','--operation', help="provide operator")
     
     args=parser.parse_args()
     print(args)
