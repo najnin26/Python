@@ -4,7 +4,7 @@
 #   return x+y
 #def product(x,y,z):
 #    return x*y*z
-
+from functools  import reduce
 double =lambda x : x*2
 add=lambda x,y : x+y
 product=lambda x,y,z: x*y*z
@@ -29,3 +29,6 @@ print(list(c))
 
 d=filter(lambda x: True if x>=5 else False, my_list)
 print(list(d))
+
+e= reduce(lambda x,y : x+y, my_list)
+print(e)
