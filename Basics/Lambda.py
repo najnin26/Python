@@ -21,3 +21,11 @@ a=map(lambda x: x*2, my_list)
 print(list(a))
 b=map(lambda x,y: x+y,my_list, my_list2)
 print(list(b))
+
+#filter
+
+c=filter(lambda x:x%2==0, my_list)
+print(list(c))
+
+d=filter(lambda x: True if x>=5 else False, my_list)
+print(list(d))
