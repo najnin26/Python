@@ -30,5 +30,7 @@ print(list(c))
 d=filter(lambda x: True if x>=5 else False, my_list)
 print(list(d))
 
+#reduce
+
 e= reduce(lambda x,y : x+y, my_list)
 print(e)
