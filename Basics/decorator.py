@@ -5,8 +5,11 @@ def decorator_func(func):
         print("Y"*20)
     return wrapper_func
 
+@decorator_func
 def say_hello():
     print("Hello World")
 
-hello=decorator_func(say_hello)
-hello()
+# hello=decorator_func(say_hello)
+# hello()
+
+say_hello()
