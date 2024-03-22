@@ -12,8 +12,9 @@ def decorator_Y(func):
         print("Y"*20)
     return wrapper_func
 
-@decorator_Y
 @decorator_X
+@decorator_Y
+
 def say_hello():
     print("Hello World")
 
