@@ -1,14 +1,22 @@
-def decorator_divide(func):
-    def wrapper_func(a,b):
-        print("divide",a," and ",b)
-        if b==0:
-            print("division with zero is not allowed")
-            return 0
-        return a/b
+from time import time
+
+def timing(func):
+    def wrapper_func(*args,**kwargs):
+        start=time()
+        result=func(*args,**kwargs)
+        end=time()
+        print(start)
+        print(end)
+        print("Elapsed time : {}".format(end-start))
+        return result
+    
     return wrapper_func
 
-@decorator_divide
-def divide(x,y):
-    return x/y
-
-print(divide(15, 0))
+@timing
+def my_func(num):
+    sum=0
+    for i in range(num+1):
+        sum+=i
+    
+    return sum
+print(my_func(2000000))
