@@ -12,13 +12,13 @@ def decorator_Y(func):
         print("Y"*20)
     return wrapper_func
 
-@decorator_X
-@decorator_Y
+# @decorator_X
+# @decorator_Y
 
 def say_hello():
     print("Hello World")
 
-# hello=decorator_func(say_hello)
-# hello()
+hello=decorator_Y(decorator_X(say_hello))
+hello()
 
 say_hello()
