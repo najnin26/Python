@@ -7,3 +7,5 @@ if __name__=="__main__":
     y=input("Num 2 : ")
     z=add(x, y)
     print(z)
+    
+    
