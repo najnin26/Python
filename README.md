@@ -19,3 +19,12 @@ Through this folder, I explored:
 Each script focuses on understanding **how a package works**, **why it is used**, and **how it can be applied**.
 
 ---
+## 📁 Folder Overview
+
+The `Basics` directory includes multiple Python scripts and notebooks that demonstrate:
+
+- Importing and using Python packages
+- Writing simple, clean, and readable Python code
+- Performing basic data processing
+- Visualizing data
+- Making HTTP requests and handling responses
