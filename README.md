@@ -28,3 +28,14 @@ The `Basics` directory includes multiple Python scripts and notebooks that demon
 - Performing basic data processing
 - Visualizing data
 - Making HTTP requests and handling responses
+## 🧰 Packages and Concepts Covered
+
+This folder includes examples using the following Python packages and concepts:
+
+### 🔹 Core Python
+- Variables and data types
+- Conditional statements
+- Loops
+- Functions
+- Lists, tuples, dictionaries, and sets
+- File handling
