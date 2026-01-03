@@ -39,3 +39,9 @@ This folder includes examples using the following Python packages and concepts:
 - Functions
 - Lists, tuples, dictionaries, and sets
 - File handling
+
+### 🔹 Third-Party Libraries
+
+- **NumPy**
+  - Array creation and manipulation
+  - Basic numerical operations
