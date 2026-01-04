@@ -56,3 +56,6 @@ This folder includes examples using the following Python packages and concepts:
 - **Requests**
   - Sending HTTP requests
   - Handling API responses
+- **BeautifulSoup**
+  - Parsing HTML content
+  - Extracting information from web pages
