@@ -53,3 +53,6 @@ This folder includes examples using the following Python packages and concepts:
   - Data visualization
   - Line plots, bar charts, histograms
   - Customizing plots
+- **Requests**
+  - Sending HTTP requests
+  - Handling API responses
