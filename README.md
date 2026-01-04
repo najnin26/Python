@@ -64,6 +64,22 @@ This folder includes examples using the following Python packages and concepts:
 To run the scripts in this folder, follow these steps:
 
 ### 1️⃣ Clone the Repository
-
 ```bash
 git clone https://github.com/najnin26/Python.git
+```
+
+### 2️⃣ Navigate to the Basics Folder
+```bash
+cd Python/Basics
+```
+
+### 3️⃣ (Optional) Create a Virtual Environment
+```bash
+python -m venv venv
+```
+
+### 4️⃣ Install Required Packages
+```bash
+pip install -r requirements.txt
+```
+
