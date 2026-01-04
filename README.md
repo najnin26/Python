@@ -45,3 +45,7 @@ This folder includes examples using the following Python packages and concepts:
 - **NumPy**
   - Array creation and manipulation
   - Basic numerical operations
+- **Pandas**
+  - DataFrames and Series
+  - Reading and writing data files
+  - Data cleaning and analysis
