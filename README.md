@@ -59,3 +59,11 @@ This folder includes examples using the following Python packages and concepts:
 - **BeautifulSoup**
   - Parsing HTML content
   - Extracting information from web pages
+## ⚙️ Installation and Setup
+
+To run the scripts in this folder, follow these steps:
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/najnin26/Python.git
