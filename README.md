@@ -49,3 +49,7 @@ This folder includes examples using the following Python packages and concepts:
   - DataFrames and Series
   - Reading and writing data files
   - Data cleaning and analysis
+- **Matplotlib / Seaborn**
+  - Data visualization
+  - Line plots, bar charts, histograms
+  - Customizing plots
